@@ -28,6 +28,9 @@ public class Task {
         this.endDate = endDate;
     }
 
+    public Task() {
+    }
+
     public Long getId() {
         return id;
     }
